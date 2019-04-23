@@ -29,7 +29,13 @@
       "name" : "Quick Export PNG @1-3x",
       "identifier" : "quick-export-all"
     },
-
+    {
+      "script" : "QuickClipboardPNG1x.js",
+      "handler" : "onRun",
+      "shortcut" : "command shift x",
+      "name" : "Quick Export Clipboard @1x",
+      "identifier" : "quick-clipboard-1x"
+    },
     {
       "script" : "QuickClipboardPNG2x.js",
       "handler" : "onRun",
@@ -65,6 +71,7 @@
         "quick-export-2x",
         "quick-export-3x",
         "quick-export-all",
+        "quick-clipboard-1x",
         "quick-clipboard-2x",
         "quick-clipboard-3x",
         "quick-export-PDF",
@@ -81,7 +88,7 @@
   "authorEmail" : "richard@gazdik.name",
   "name" : "Quick Export",
   "homepage": "http://richard.gazdik.name",
-  "version": "0.9.1",
+  "version": "0.9.1.1",
   "compatibleVersion": 3.5,
   "bundleVersion": 1
 }
