@@ -1,4 +1,4 @@
-# sketch-quickexport 0.9.1
+# sketch-quickexport 0.9.2
 Quick Export Plugin For Sketch
 
 ## Quick export selected layers
@@ -28,10 +28,12 @@ Or
 * `fn` + `Shift` +**`3`** to export the selected layers @3x resolution.
 * `fn` + `Shift` +**`S`** to export the selected layers to SVG.
 * `fn` + `Shift` +**`P`** to export the selected layers to PDF.
+* `Command` + `Shift` +**`X`** to export the selected layers @1x resolution to clipboard.
 * `Command` + `Shift` +**`C`** to export the selected layers @2x resolution to clipboard.
 * `Command` + `Shift` + `Option` +**`C`** to export the selected layers @3x resolution to clipboard.
 
 ## Version History
+* 0.9.2 (April 23, 2019) - Add export to clipboard @1x
 * 0.9.1 (July 10, 2017) - Add export to clipboard
 * 0.9 (Jan 19, 2017) - SVG export, extended and unified shortcuts
 * 0.8 (Jan 11, 2017) - PDF export (Thanks to [ober1](https://github.com/ober01))
